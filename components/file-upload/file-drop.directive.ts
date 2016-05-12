@@ -17,7 +17,7 @@ export class FileDropDirective {
   }
 
   public getFilters():any {
-    return {};
+    return undefined;
   }
 
   @HostListener('drop', ['$event'])
